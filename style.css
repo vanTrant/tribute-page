@@ -4,25 +4,169 @@
 }
 
 .container {
-    display: grid;
-    grid-row: 200px 500px auto;
-    grid-template-areas: "header" "figure" "content";
-    grid-gap: 50px;
-    text-align: center;
+    display: block;
+    justify-content: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #afafaf;
-    color: #333;
-    line-height: 1.5;
-    padding: 30px 80px 30px 80px;
+    background: rgb(238, 235, 223);
+}
+
+header {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #414141;
+    z-index: 10;
 }
 
 .item1 {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(9, 189, 189);
+}
+
+body article figure {
+    position: relative;
+    margin-top: 180px;
 }
 
 #img-div {
-    background: white;
-    margin: 0;
-    padding: 20px;
-    justify-items: center;
+    padding: 20px 40px 20px 40px;
+    background: #afafaf;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+body main article figure div #image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+#tribute-info {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 2;
+}
+
+#tribute-info p {
+    text-align: center;
+}
+
+#tribute-info ul li {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.quotes {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0px;
+    background: #4595d6;
+    color: #ffffff;
+    border-radius: 10px 20px 10px 20px;
+    padding: 15px 30px 15px 30px;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    header .item1 {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    body main article figure #img-div #image {
+        max-width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    body main article figure {
+        
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+
+    }
+
+    body main article section {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    body main article figure #img-div {
+        padding: 0;
+        border-radius: 0;
+        text-align: center;
+        background-size: cover;
+        background:transparent;
+    }
+
+    footer {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    header nav ul li a{
+        font-size: 16px;
+        padding: 5px 25px 5px 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
