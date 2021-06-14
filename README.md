@@ -34,5 +34,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Authors
 
-Riovano - [@riovanop](https://www.instagram.com/riovanop/) - riovano82@gmail.com 
+Riovano - [@riovanop](https://www.instagram.com/riovanop/) - riovano82@gmail.com <br />
 Notes: I'm pretty sure Mark is a lizard
