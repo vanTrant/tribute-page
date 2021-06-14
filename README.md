@@ -14,7 +14,7 @@ I create this in order to complete Responsive Web Design Challenge from [freecod
   ```sh
    git clone https://github.com/vanTrant/polban-search.git
    ```
-   or simply download the code.
+   or simply download the code.<br />
 2. Press Ctrl+O and open main.html
 
 
