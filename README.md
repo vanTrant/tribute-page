@@ -10,7 +10,6 @@ I create this in order to complete Responsive Web Design Challenge from [freecod
 
 ### Installation
 
-For Linux user:
 1. Clone the repo
   ```sh
    git clone https://github.com/vanTrant/polban-search.git
