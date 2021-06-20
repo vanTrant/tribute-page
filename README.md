@@ -12,7 +12,7 @@ I create this in order to complete Responsive Web Design Challenge from [freecod
 
 1. Clone the repo
   ```sh
-   git clone https://github.com/vanTrant/polban-search.git
+   git clone https://github.com/vanTrant/tribute-page.git
    ```
    or simply download the code.<br />
 2. Press Ctrl+O and open main.html
